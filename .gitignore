@@ -7,3 +7,6 @@ springboot-backend/.classpath
 springboot-backend/.settings
 springboot-backend/.mvn
 springboot-backend/target
+
+react-frontend/employee-mgt-app/node_modules
+
