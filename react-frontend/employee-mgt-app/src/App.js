@@ -14,11 +14,11 @@ function App() {
         <HeaderComponent />
         <div className="container">
           <Routes>
-            <Route path="/" exact component={<ListEmployeeComponent />}></Route>
-            <Route path="/employees" exact component={ListEmployeeComponent}></Route>  
-            <Route path="/add-employee" exact component={CreateEmployeeComponent}></Route>  
+            <Route path="/" element={<ListEmployeeComponent />}></Route>
+            <Route path="/employees"  element={<ListEmployeeComponent />}></Route>  
+            <Route path="add-employee"  element={<CreateEmployeeComponent />}></Route>  
           </Routes>
-          <ListEmployeeComponent />
+          {/* <ListEmployeeComponent /> */}
         </div>
         <FooterComponent />
 
